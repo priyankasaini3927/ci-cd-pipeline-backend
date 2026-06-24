@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("app")
 
 AWS_REGION = "us-east-1"
-S3_BUCKET = "ci-cd-pipeline-priyanka"
+S3_BUCKET = "ci-cd-project-priyanka"
 
 s3 = boto3.client("s3", region_name=AWS_REGION)
 dynamodb = boto3.resource("dynamodb", region_name=AWS_REGION)
